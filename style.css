@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: teal;
+}
+
+#date {
+  padding: 20px;
+  width: 30%;
+  margin: 20px 60px;
+  display: block;
+}
+@media screen and (max-width: 470px) {
+  #date {
+    width: 50%;
+  }
+  img{
+    width: 90%;
+  }
+}
